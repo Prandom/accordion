@@ -1,0 +1,48 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper .button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: #002400;
+    color:#59ca59;
+    box-shadow: 0 0 5px cyan;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: #013c01;
+    color: #96d696;
+    transition: all 0.1s ease-in-out;
+}
+
+.accordion{
+    width: 500px;
+}
+
+.item{
+    background: #59ca59;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.title{
+    color: #002400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content{
+    color:#002400;
+    height: auto;
+}
